@@ -1,1 +1,14 @@
-
+{
+    "name": "Tower-api",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "Tower-Defence": "github:qiboly/tower-defence#61dfca5489beb3f915e4f713edddc91348d82a3a"
+    },
+    "description": "",
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "installedVersion": "pub:94145-91832-13739-54449"
+}
