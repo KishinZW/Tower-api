@@ -57,7 +57,7 @@ namespace sc1123 {
      */
     //% blockId=sc1123_fire block="开火 引脚 %pin"
     export function fire(pin = DigitalPin.P0): void {
-        pins.digitalWritePin(pin, 1)
+        pins.digitalWritePin(pin, 1);
     }
 
     /**
@@ -67,7 +67,7 @@ namespace sc1123 {
      */
     //% blockId=sc1123_steergun block="炮台转向 引脚 %pin"
     export function steergun(pin: Servos, angle: number): void{
-        EALAB.Servo(pin, angle)
+        EALAB.Servo(pin, angle);
     }
 
     /**
@@ -100,10 +100,10 @@ namespace sc1123 {
      */
     //% blockId=sc1123_left block="左转"
     export function left(speed = 255): void{
-        EALAB.MotorRun(Motors.M1A, -speed)
-        EALAB.MotorRun(Motors.M1B, -speed)
-        EALAB.MotorRun(Motors.M2A, speed)
-        EALAB.MotorRun(Motors.M2B, speed)
+        EALAB.MotorRun(Motors.M1A, -speed);
+        EALAB.MotorRun(Motors.M1B, -speed);
+        EALAB.MotorRun(Motors.M2A, speed);
+        EALAB.MotorRun(Motors.M2B, speed);
     }
 
     /**
@@ -112,9 +112,9 @@ namespace sc1123 {
      */
     //% blockId=sc1123_right block="右转"
     export function right(speed = 255): void{
-        EALAB.MotorRun(Motors.M1A, speed)
-        EALAB.MotorRun(Motors.M1B, speed)
-        EALAB.MotorRun(Motors.M2A, -speed)
-        EALAB.MotorRun(Motors.M2B, -speed)
+        EALAB.MotorRun(Motors.M1A, speed);
+        EALAB.MotorRun(Motors.M1B, speed);
+        EALAB.MotorRun(Motors.M2A, -speed);
+        EALAB.MotorRun(Motors.M2B, -speed);
     }
 }
