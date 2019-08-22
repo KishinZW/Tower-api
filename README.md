@@ -5,4 +5,4 @@ Uses for pseudo-multithread programming on micro:bit.
 #
 Specially for tower defence game.
 #
-https://makecode.microbit.org/_MPVJPAEiJKvm
+https://makecode.microbit.org/_7mJ4Dhi2EWTh
